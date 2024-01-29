@@ -10,7 +10,7 @@ function Restaurant() {
   const {addWishlist,isWishlist} = useContext(WishlistContext)
 
   useEffect(() => {
-    fetch("http://localhost:3000/")
+    fetch("https://megi-backend.onrender.com/")
       .then((res) => res.json())
       .then((data) => setRestaurant(data));
   }, []);

@@ -8,7 +8,7 @@ function Detail() {
 
     const {id} = useParams()
     useEffect(() => {
-        fetch("http://localhost:3000/"+id)
+        fetch("https://megi-backend.onrender.com/"+id)
         .then((res) => res.json())
         .then((data) => setDetail(data));
     }, [])

@@ -17,7 +17,7 @@ function AddPages() {
   }, []);
 
   function handleAdd(val) {
-    fetch("http://localhost:3000/", {
+    fetch("https://megi-backend.onrender.com/", {
       method: "POST",
       body: JSON.stringify(val),
       headers: {
@@ -27,12 +27,12 @@ function AddPages() {
     navigate("/");
   }
   function getAll() {
-    fetch("http://localhost:3000/")
+    fetch("https://megi-backend.onrender.com/")
       .then((res) => res.json())
       .then((data) => setTable(data));
   }
   function Delete(id) {
-    fetch("http://localhost:3000/" + id, { method: "DELETE" })
+    fetch("https://megi-backend.onrender.com/" + id, { method: "DELETE" })
       .then((res) => res.json())
       .then((data) => {
         getAll();
