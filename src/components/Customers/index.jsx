@@ -5,7 +5,7 @@ function CustomersSay() {
   return (
     <div className='customersSay'>
         <div className="customersSayAll">
-            <div className="name">Customers Say</div>
+            <div className="name">Customers Say - Mehemmed Land a xos gelmisiz</div>
             <div className="header">REVIEW</div>
             <img src="https://preview.colorlib.com/theme/pato/images/avatar-05.jpg.webp" alt="" />
             <div className="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nesciunt quae ipsa provident voluptas dolore sed a autem, iusto repellendus earum? Voluptas voluptates laboriosam quod eligendi eum temporibus aliquam corporis facilis d </div>
